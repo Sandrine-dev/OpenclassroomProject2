@@ -1,2 +1,2 @@
 # Cv
-Contstruction du porjet 2 de Open classroom, le CV
+Contstruction du projet 2 de Open classroom, le CV
