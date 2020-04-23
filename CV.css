@@ -112,6 +112,7 @@
         text-transform: uppercase;
         font-weight: bold;
         display: flex;
+        flex-direction: row;
     }
 
     .titre i
@@ -135,12 +136,29 @@
 
         .blocA
         {
-            display: flex;
-            flex-direction: row;
             margin: 0px 5px 0px 5px;
             justify-content: space-between;
         }
         
+        .blocA i
+        {
+            color: #26A69A;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            margin-left: 10px;
+        }
+
+        .dotedate
+        {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .dotedate p
+        {
+            margin-left: 10px;
+        }
     
         article
         {
@@ -177,4 +195,27 @@
     #contact
     {
         display: flex;
+        flex-direction: row;
     }
+    
+    #contact1
+    {
+        margin: 10px 10px 10px 10px;
+        padding: 5px 2px 5px 2px;
+    }
+
+    #contact2
+    {
+        margin: 10px 10px 10px 10px;
+        padding: 5px 2px 5px 2px;
+    }
+
+@media all and (min-width: 1024px)
+{
+        body
+        {
+            width: 900px;
+            margin: auto;
+            display: flex;
+        }
+}
