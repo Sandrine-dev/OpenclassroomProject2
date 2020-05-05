@@ -227,6 +227,16 @@
             align-items: flex-start;
         }
 
+        .dotedate
+        {
+            flex: 2;
+        }
+
+        .Infocomplementaire
+        {
+            flex: 5;
+        }
+
         #Reco
         {
             display: flex;
